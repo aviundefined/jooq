@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:54320/jwt_security
+    username: postgres
+    password: my_password
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8082
